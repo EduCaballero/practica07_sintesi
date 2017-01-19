@@ -185,3 +185,29 @@ aside a{
 aside>a:first-child{
     margin-top: 85%;
 }
+
+div>h2{
+    width: 90%;
+    background-color: lightslategray;
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+section img{
+    float: left;
+    margin-left: 50px;
+}
+
+section>div:first-child article{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 10px;
+    margin-left: 380px;
+    padding: 10px;
+    background-color: white;
+}
