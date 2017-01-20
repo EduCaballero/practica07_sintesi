@@ -22,7 +22,7 @@ and open the template in the editor.
         </header>
         <section id="section2">
             <div><div><h2 id="tit2">REGISTRO</h2></div>
-                <form action="registro01.html" method="post">
+                <form action="reg.php" method="post">
                     <div id="bloque1"><label>Nombre</label><div><input class="empujar1" name="nom" type="text" placeholder="  Introduce tu nombre" pattern="[A-Za-z]{3-22}" required/></div>
                         <label>Apellidos</label><div><input name="ape" type="text" placeholder="  Introduce tus apellidos" pattern="[A-Za-z]{3-22}" required/></div></div><br>
                     <div id="bloque2"><label>Fecha nacimiento</label><div><input class="empujar1" type="date" name="fecha" step="1" min="1900-01-01" max="2010-01-01" placeholder="1910-01-01" required></div>
@@ -38,10 +38,10 @@ and open the template in the editor.
                             <option value="Buscadores">Buscadores</option>
                         </select></div><br><br><br>
                     <div id="bloque5"><label>Temas que te intresan:</label><br>
-                        SEGA<input type="checkbox" name="interes" value="SEGA">
-                        Sonic Team<input type="checkbox" name="interes" value="Sonic Team">
-                        AM2<input type="checkbox" name="interes" value="AM2">
-                        Yu Suzuki<input type="checkbox" name="interes" value="Yu Suzuki"></div><br>
+                        SEGA<input type="checkbox" name="interes[]" value="SEGA">
+                        Sonic Team<input type="checkbox" name="interes[]" value="Sonic Team">
+                        AM2<input type="checkbox" name="interes[]" value="AM2">
+                        Yu Suzuki<input type="checkbox" name="interes[]" value="Yu Suzuki"></div><br>
                         <div id="bloque6"><input id="login" type="submit" name="registrate" value="Regístrate" /></div>                
                 </form>
             </div>
