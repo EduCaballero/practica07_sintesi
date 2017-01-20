@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>PRÁCTICA SÍNTESIS UF1 LLMM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="index.css" rel="stylesheet" type="text/css"/>
+        <link href="pag2.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <div id="b1"><div id="l1"><a>Link pag1</a></div>
+            <div id="l2"><a href="pag2.html">Link pag2</a></div></div>
+            <div id="limgcab"><img src="img/segadoes.jpg" width="300" height="190"/></div>
+            <div id="b2"><div id="l3"><a>Link pag3</a></div>
+            <div id="l4"><a>Link pag4</a></div></div>
+        </header>
+        <section>
+            <div><h2>REGISTRO</h2></div>
+            <form action="registro01.php" method="post">
+                <label>Nombre</label><div><input name="nom" type="text" placeholder="  Introduce tu nombre"  required/></div>
+                <label>Apellidos</label><div><input name="ape" type="text" placeholder="  Introduce tus apellidos" required/></div>
+                <label>Fecha nacimiento</label><div><input type="date" name="fecha" step="1" min="1910-01-01" max="2017-01-01" placeholder="1910-01-01"></div>
+                <label>E-mail</label><div><input name="email" type="email" placeholder="  Introduce tu email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/></div>
+                <label>Sexo</label><br />
+            <div ><label>Masculino</label><input type="radio" name="regsex" value="hombre"></div>
+            <div><label>Femenino</label><input type="radio" name="regsex" value="mujer"></div>
+            <div><label>Otro</label><input type="radio" name="regsex" value="otro"></div>
+            </form>
+        </section>
+        <aside id="floatizq">
+        </aside>
+        <div id="floatder"></div>
+        <footer>
+            <div>info cuadrado gris</div>
+            <div>info cuadrado gris</div>
+            <div>info cuadrado gris</div>
+        </footer>
+    </body>
+</html>

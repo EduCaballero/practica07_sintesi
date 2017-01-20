@@ -1,0 +1,10 @@
+section > div {
+    display: block;
+    text-align: center;
+    background-color: pink;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 100%;
+    width: 80%;
+}
