@@ -1,5 +1,13 @@
+#section2{
+    height: 100%
+}
+#tit2{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
 section > div {
-    display: block;
+    display: inline-block;
     text-align: center;
     background-color: pink;
     border-style: solid;
@@ -7,4 +15,45 @@ section > div {
     border-width: 1px;
     height: 100%;
     width: 80%;
+}
+
+section>div>form>div>div{
+    display: inline-block;
+}
+
+#bloque1{
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#bloque2{
+    margin-bottom: 20px;
+}
+
+#bloque3, #bloque4{
+    display: inline-block;
+}
+
+#bloque3{
+    margin-right: 40px;
+}
+
+#login{
+    background-color: lightslategray;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.empujar1{
+    margin-right: 40px;
+}
+
+.block{
+    display: block;
 }
