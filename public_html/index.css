@@ -67,8 +67,9 @@ text-align: right;
 
 #limgcab{
     height: 100%;
-    width: 25%;
+    width: 33%;
     display: inline-block;
+    position: relative;
 }
 
 #l3{
@@ -202,7 +203,7 @@ section img{
     margin-left: 50px;
 }
 
-section>div:first-child article{
+section article{
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -210,4 +211,69 @@ section>div:first-child article{
     margin-left: 380px;
     padding: 10px;
     background-color: white;
+    
+}
+section>div>div>a{
+    width: 90%;
+    background-color: lightslategray;
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: auto;
+}
+
+#aabajo1{
+    margin-top: 135px;
+}
+
+#aabajo2{
+    margin-top: 205px;
+}
+
+table{
+    border-collapse:collapse; 
+    border: none;
+    display: inline-block;
+}
+
+td{
+   border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+    padding: 10px;
+}
+#caja1{
+    height: 250px;
+    overflow: scroll
+}
+
+@media screen and (max-width: 1100px){
+   #floatizq{display: none}
+   #floatder{display: none}
+   section>div{width: 100%;}
+   section{padding: 0;
+           padding-top: 200px;
+           padding-bottom: 100px;}
+}
+
+@media screen and (max-width: 900px){
+#limgcab{display: none}
+header{height:75px}
+#b1, #b2{
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    float: left}
+#l1, #l3, #l2, #l4{
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    vertical-align: top;
+    padding: 0;
+    margin-top: 18px}
+section>div:last-child article{height: 35px; overflow: scroll}
+section{padding-top: 75px; padding-bottom: 100px}
+section>div>div{display: block}   
 }
