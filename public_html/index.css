@@ -302,7 +302,7 @@ table{margin-top: 40px}
     height: 100%;
     float: left;
     margin-top: 5px}
-margin: 0; padding: 0}
+
 #l1, #l3, #l2, #l4{
     display: block;
     width: 100%;
@@ -317,6 +317,7 @@ header a {
     padding-left: 90px;
     margin-right: 5px}
 #aabajo2 {margin-top: 85px}
+}
 
 @media screen and (max-width: 515px){
   footer div {    
